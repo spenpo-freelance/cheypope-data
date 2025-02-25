@@ -7,14 +7,12 @@ on:
         required: true
         type: choice
         options:
-          - release
           - staging
       target_env:
         description: 'Target environment'
         required: true
         type: choice
         options:
-          - staging
           - production
       migrate_users:
         description: 'Users will be migrated from source to target environment'
